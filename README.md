@@ -1,7 +1,7 @@
 # tabspower
 Tabs jQuery plugin
 
-Обязательные классы и атрибуты:
+Обязательные классы и атрибуты:<br>
   js-tab-menu - контейнер с табами
   js-tab-menu-btn - таб-кнопка
     data-tab-btn - атрибут для таба-кнопки
