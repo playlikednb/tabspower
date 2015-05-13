@@ -1,16 +1,5 @@
 $.fn.tabsPower = function () {
     
-    /*
-    Обязательные классы и атрибуты:
-      js-tab-menu - контейнер с табами
-      js-tab-menu-btn - таб-кнопка
-        data-tab-btn - атрибут для таба-кнопки
-      js-tab-content - контейнер с отображаемыми элементами табов
-      js-tab-item - элемент таба для скрытия/отображения
-        data-tab-item - атрибут для элемента таба
-
-    */
-    
     // poweredGrp - объект, к которому применяем плагин
     var poweredGrp = $(this),
       allTabItems = poweredGrp.find('.js-tab-item').hide();
@@ -58,6 +47,3 @@ $.fn.tabsPower = function () {
 
   };
   //  $.fn.tabsPower 
-
-  // вызов функции
-  //$(*tab-container*).tabsPower();
